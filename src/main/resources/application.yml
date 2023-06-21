@@ -1,0 +1,16 @@
+server:
+  error:
+    include-stacktrace: never
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: incode-group-test
+      username: incode-group-username
+      password: incode-group-password
+      authentication-database: admin
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
