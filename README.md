@@ -3,11 +3,11 @@ This project implements a simple RESTful API in Java using Spring Boot to manage
 
 API Endpoints
 The following API endpoints are available:
-1) GET /users: List all users.
-2) GET /users/{id}: Get a single user by ID.
-3) POST /users: Create a new user.
-4) PUT /users: Update an existing user.
-5) DELETE /users/{id}: Delete a user.
+1) GET /api/users: List all users.
+2) GET /api/users/{id}: Get a single user by ID.
+3) POST /api/users: Create a new user.
+4) PUT /api/users: Update an existing user.
+5) DELETE /api/users/{id}: Delete a user.
 
 User Entity
 The User entity has the following fields:
