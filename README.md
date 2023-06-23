@@ -23,7 +23,7 @@ To build and run the project, follow these steps:
 3) Navigate to the project root directory.
 4) Run command docker compose up -d
    
-The API will be available at http://localhost:8080/users.
+The API will be available at http://localhost:8080/api/users.
 
 Assumptions and Decisions
 * The application uses MongoDB as the database for storing user data. The Docker Compose configuration includes a MongoDB service.
